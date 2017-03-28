@@ -1,189 +1,450 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Katherine Moraga - Graphic Designer</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  </head>
-  <body>
-  <!-- nav -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="index.html"><img class="logo0" src="assets/img/logo-wh.png" alt="logo"></a>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Katherine Moraga - Portafolio</title>
+      <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500,700|PT+Sans:400,700|Raleway:100,400,500i|Lato:300,900,700|Raleway:400,800,900|Source+Sans+Pro:200,300" rel="stylesheet">
+      <!-- CSS -->
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+      
+   </head>
+   <body>
+<!-- Preloader
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <div id="loader-wrapper">
+         <div id="loader"></div>
+         <div class="loader-section section-left"></div>
+         <div class="loader-section section-right"></div>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
+  <!-- Navigation
+––––––––––––––––––––––––––––––––––––––––––––––––––-->    
+<div class="overlay-navigation">
+  <nav role="navigation">
+    <ul>
+      <li><a href="#" data-content="Inicio">Home</a></li>
+      <li><a href="#background" data-content="Sobre mi">About</a></li>
+      <li><a href="#portfolio" data-content="Mis trabajos">Portafolio</a></li>
+    </ul>
   </nav>
-  <!-- -->
-  <secction class="fondo-encabezado" data-movimiento="10">
-    <div class="encabezado">
-      <img id="logo" src="assets/img/logo-wh.png" alt="logo">
-      <h3>Graphic desginer - Frontend developer</h3>
-      <div class="btn btn-succes btn1"><a id="a-btn1" href="#portfolio">Portfolio</a></div>
-    </div>
-  </secction>
-<!--about-->
-  <secction id="about" class="no-padding container-fluid">
-    <div class="about row-fluid">
-      <article class="no-padding about-izq col-xs-12 col-sm-6 col-md-6">
-         <img class="scrollflow -opacity img-responsive" src="assets/img/write.jpg" alt="write">
-      </article>
-      <article class="no-padding about-der col-xs-12 col-sm-6 col-md-6">
-        <div class="scrollflow -opacity">
-          <h2>About</h2>
-          <hr>
-          <p>Visual Communication Designer, Bachelor
-          of Arts, Science and Technology of Visual
-          Communication Design. Experience in the
-          education field. campaign development,
-          educational materials and editorial design.
-          Expertise in web development, especially in
-          front-end programming languages: HTML5,
-          CSS3 and Javascript.</p>
-        </div>
-      </article>
-      <article id="skills" class="frontend no-padding col-xs-12  col-sm-4 col-md-4">
-        <div class="scrollflow -slide-top -opacity">
-          <h4>Front-end developer</h4>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
-      </article>
-      <article class="skills no-padding col-xs-12 col-sm-4 col-md-4">
-       <div class="scrollflow -pop -opacity img-skills">
-        <h3>Skills</h3>
-       </div>
-      </article>
-      <article class="graphicdesign no-padding col-xs-12 col-sm-4 col-md-4">
-        <div class= "scrollflow -slide-top -opacity">
-          <h4>Graphic Designer</h4>
-          <hr>
-          <p>Uisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. </p>
-        </div>
-      </article>
-    </div>
-  </secction>
-  <!--intro- portfolio-->
-  <section id="portfolio" class="intro-portfolio">
-    <div class="container">
-      <div class="scrollflow  -opacity content-intro-portfolio col-md-12 col-lg-12">
-       <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
-        <h3>RECENT WORKS</h3>
+</div>
+
+<section class="home">
+  <div class="open-overlay">
+    <span class="bar-top"></span>
+    <span class="bar-middle"></span>
+    <span class="bar-bottom"></span>
+  </div>
+</section>
+<!-- menu block lateral
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <section class="menu-lateral">
+         <div class="logo-block">
+            <a href="index.html"><img alt="logo-km" class="img-responsive" src="assets/img/logokm-wh.png"></a>
+         </div>
+         <div class="social-block">
+            <ul>
+               <li><a href="https://www.linkedin.com/in/kvmoraga/"><span class="ion-social-linkedin black"></span></a></li>
+               <li><a href="https://www.behance.net/kmoraga"><span class="fa fa-behance" aria-hidden="true"></span></a></li>
+               <li><a href="https://github.com/kvmoraga"><span class="ion-social-github black"></span></a></li>
+            </ul>
+         </div>
+      </section>
+
+<!-- Header
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <header class="header_secc hero__imgwrap">
+         <img class="hero__img tilt-effect" data-tilt-options='{ "opacity" : 0.6, "movement": { "perspective" : 1500, "translateX" : 10, "translateY" : 10, "translateZ" : 2, "rotateX" : 3, "rotateY" : 3 } }' src="assets/img/header2.jpg" alt="Hero image" />
+          <div class="vertical-text">Portafolio de Katherine Moraga</div>
+      <!-- Typed.js -->
+         <div id="typed-strings">
+            <p><span class="name">Katherine M.</span><br>Diseñadora Gráfica</p>
+         </div>
+         <span id="typed"></span>
+      </header>
+      
+<!-- about intro
+––––––––––––––––––––––––––––––––––––––––––––––––––-->      
+   <div id="background" class="tabscontent__item">
+      <figure data-wow-delay="0.5s" class="wow fadeInUp poster">
+         <img class="poster__img" src="assets/img/desk-bw.jpg" alt="Poster 1"/>
+      <figcaption class="poster__caption">
+        <h2 class="poster__title">diseño<br/>gráfico</h2>
+        <p class="poster__deco">desarrollo web</p>
+        <div class="poster__box"></div>
+ <!--<span class="poster__number">01</span>-->
+      </figcaption>
+      </figure>
+      <div data-wow-delay="0.9s" class="wow fadeIn texto-about">
+        <h1>SOBRE MI</h1>
+        <p><em>Diseñadora en Comunicación Visual</em>, Licenciada en Artes, Ciencias y Tecnologías del Diseño en Comunicación Visual. Experiencia en diseño dentro del área educativa. Desarrollo de campañas, material educativo y <em>diseño editorial</em>. Conocimientos en <em>desarrollo web</em>, especialmente en lenguajes de programación front-end (HTML5, CSS3 y jQuery). Gran capacidad de aprendizaje, planificación y organización dentro de equipos de trabajos.</p>
       </div>
-    </div>
-  </section>
-  <!--portfolio-->
-  <section class="scrollflow -opacity no-padding">
-    <div class="container-fluid">
-      <div class="row no-gutter">
-        <div class="portfolio-box col-md-4 col-lg-4">
-          <img class="img-responsive" src="assets/img/kavara2.jpg" alt="Cafe Kavara">
-          <div class="portfolio-caption">
-          <h3>Kavara Coffe</h3>
-          <div class="btn btn-succes btn2"><a href="#">View Project</a></div>
-          </div>
-        </div>
-        
-        <div class="portfolio-box col-md-4 col-lg-4">
-          <img class="img-responsive" src="assets/img/upc.jpg" alt="Catalogos UPC">
-          <div class="portfolio-caption">
-            <h3>UPC Catalog of Products</h3>
-            <div class="btn btn-succes btn2"><a href="#">View Project</a></div>
-          </div>
-        </div>
-        
-        <div class="portfolio-box col-md-4 col-lg-4">
-          <img class="img-responsive" src="assets/img/adelmo.jpg" alt="Juego Adelmo">
-          <div class="portfolio-caption">
-            <h3>Family Game Design</h3>
-            <div class="btn btn-succes btn2"><a href="#">View Project</a></div>
-          </div>
-        </div>
+   </div>
+
+      <div class="wow fadeIn logo-p" data-wow-delay="0.5s">
+         <img src="assets/img/logokm.png" alt="logo">
       </div>
-    </div>
-  </section>
-  <!--contact-->
-  <section id=contact class="container row-fluid contact">
-   <article class="social col-md-4 col-lg-offset-1">
-    <h3>Contact</h3>
-    <hr>
-    <div class="mail">
-      <i class="fa fa-envelope-o"></i>
-      <span>kvmoraga@contact.me</span>
-    </div>
-    <div class="fono">
-      <i class="fa fa-phone-square"></i>
-      <span>+56972723115</span>
-    </div>
-    <div class=redes-sociales>
-      <a href="http://www.facebook.com/" class="fa2 fa fa-facebook-square"></a>
-      <a href="http://www.twitter.com/" class="fa2 fa fa-twitter-square"></a>
-      <a href="https://www.linkedin.com/in/kvmoraga/" class="fa2 fa fa-linkedin-square"></a>
-      <a href="https://github.com/kvmoraga" class="fa2 fa fa-github-square"></a>
-      <a href="https://www.behance.net/kmoraga" class="fa2 fa fa-behance-square"></a>
+   <!-- Filtro Portafolio
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <div class="wow fadeIn filtrar" data-wow-delay="0.8s">
+         <a href="#" data-filter="*" class="actual">Todo</a> 
+         <a href="#" data-filter=".editorial">Editorial</a>
+         <a href="#" data-filter=".branding">Branding</a>
+         <a href="#" data-filter=".ilustracion">Ilustración</a>
+         <a href="#" data-filter=".educacion">Educación</a>
       </div>
-    </article>
-    <article class="form col-md-6 col-lg-6">
-    <form action="enviar.php" method="post">
-      Name:
-      <br>
-      <input class="input" type="text" name="nombre"  placeholder="Your name" value=""/>
-      <br>
-      Email:
-      <br>
-      <input class="input" type="text" name="email" placeholder="Your email" value=""/>
-      <br>
-      Phone:
-      <br>
-      <input class="input" type="text" name="telefono" placeholder="Your phone" value=""/>
-      <br>
-      Message:
-      <br>
-      <input class="input-2" type="text" name="mensaje" placeholder="You can write your message here..." value="" />
-            <br>
-      <input type="submit" value="Enviar"/>
-    </form>
-      <!-- Notificación al usuario (El div se encuentra oculto hasta recibir la variable envio con valor ok) 
-      <?php if($_GET[‘envio’] == ’ok’){ ?>
-      <div id="mensaje_para_usuario">El mensaje ha sido enviado correctamente. </div> 
-      <?php } ?> -->
-    </article>
-    </section>
-    <nav class="container-fluid footer nav navbar-inverse">
-    <div class="row">
-      <div class="col-md-6 col-lg-6">
-               <a href="index.html"><img class="logo0" src="assets/img/logo-wh.png" alt="logo"></a>
-      </div>
-    </div>
-    </nav>
-  </body>
+<!-- Masonry Contenedor portafolio
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+ <section class="portfolioContenedor" id="portfolio">
+      <div class="row items">
+         <!-- portfolio-wrapper -->
+         <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
+
+            <div class="wow fadeIn branding bgrid folio-item" data-wow-delay="0.3s">
+               <div class="item-wrap">
+                  <a href="#modal-01">
+	                  <img src="assets/img/portfolio/kavara/thumb-kavara01.jpg" alt="Kavara">
+                  <div class="overlay"></div>                       
+                  <div class="portfolio-item-meta">
+     					      <h5>Café Kavara</h5>
+                     <p>Branding</p>
+     					   </div> 
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+        		</div> <!-- item end -->
+
+            <div class="wow fadeIn bgrid folio-item" data-wow-delay="0.6s">
+               <div class="item-wrap">
+                  <a href="#modal-02">
+                     <img src="assets/img/portfolio/upc/thumb-upc.jpg" alt="Hotel Sign">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>UPC</h5>
+                        <p>Diseño Editorial</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="wow fadeIn bgrid folio-item" data-wow-delay="0.9s">
+               <div class="item-wrap">
+                  <a href="#modal-03">
+                     <img src="assets/img/portfolio/cge/thumb-cge02.png" alt="Beetle">           
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>CGE</h5>
+                        <p>Educación</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="wow fadeIn bgrid folio-item" data-wow-delay="1.2s">
+               <div class="item-wrap">
+                  <a href="#modal-04">
+                     <img src="assets/img/portfolio/adelmo/thumb-adelmo01.jpg" alt="adelmo">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Juego Infantil</h5>
+                        <p>Ilustración</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="wow fadeIn bgrid folio-item" data-wow-delay="0.3s">
+               <div class="item-wrap">
+                  <a href="#modal-05">
+                   <img src="assets/img/portfolio/aramark/thumb-recetario01.jpg" alt="Aramark">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Aramark</h5>
+                        <p>Diseño Editorial</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="wow fadeIn bgrid folio-item" data-wow-delay="0.6s">
+               <div class="item-wrap">
+                  <a href="#modal-06">
+                     <img src="assets/img/portfolio/thumb-codelco.jpg" alt="codelco">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Codelco</h5>
+                        <p>Diseño Editorial</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="wow fadeIn bgrid folio-item" data-wow-delay="0.9s">
+               <div class="item-wrap">
+                  <a href="#modal-07">                        
+                     <img src="assets/img/portfolio/thumb-corma.jpg" alt="corma">                       
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Corma</h5>
+                        <p>Diseño Web</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="wow fadeIn bgrid folio-item" data-wow-delay="1.2s">
+               <div class="item-wrap">
+                  <a href="#modal-08">
+                     <img src="assets/img/portfolio/integra/thumb-integra.jpg" alt="integra">
+                     <div class="overlay">
+                      	<div class="portfolio-item-meta">
+        					      <h5>Integra</h5>
+                        <p>Educación - Editorial</p>
+        					   </div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>                     
+                  </a>
+               </div>
+       		</div>  <!-- item end -->
+
+         </div> <!-- end portfolio-wrapper -->
+         
+         <!-- modal popup
+	   	========================================================= -->
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="assets/img/portfolio/kavara/kavara01.jpg" alt="kavara" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Café Kavara</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+            <span class="categories">Branding</span>
+		      </div>
+
+            <div class="link-box group">
+            	<a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            	<a href="#" class="popup-modal-dismiss">Cerrar</a>         
+            </div>
+
+	      </div><!-- modal-01 end -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="assets/img/portfolio/upc/upc.jpg" alt="UPC" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>UPC - Proyectos varios</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Diseño Editorial</span>
+		      </div>
+
+            <div class="link-box group">
+            	<a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            	<a href="#" class="popup-modal-dismiss">Cerrar</a>         
+            </div>
+
+	      </div><!-- modal-02 end -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="assets/img/portfolio/cge/cge02.png" alt="" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Campaña CGE</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Educación - Editorial</span>
+		      </div>
+
+            <div class="link-box group">
+            	<a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            	<a href="#" class="popup-modal-dismiss">Cerrar</a>         
+            </div>
+
+	      </div><!-- modal-03 end -->
+
+			<div id="modal-04" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="assets/img/portfolio/adelmo/adelmo01.jpg" alt="" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Juego Familiar: Adelmo</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Ilustración</span>
+		      </div>
+
+            <div class="link-box group">
+            	<a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            	<a href="#" class="popup-modal-dismiss">Cerrar</a>         
+            </div>
+            
+	      </div><!-- modal-04 end -->
+
+	      <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+	      	<div class="media">
+	      		<img src="assets/img/portfolio/aramark/recetario01.jpg" alt="" />
+	      	</div>      	
+
+		      <div class="description-box">
+			      <h4>Recetario Aramark</h4>		      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Diseño Editorial</div>
+               
+		      </div>
+
+            <div class="link-box group">
+            	<a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            	<a href="#" class="popup-modal-dismiss">Cerrar</a>         
+            </div>	      
+
+	      </div><!-- modal-05 end -->
+
+	      <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="assets/img/portfolio/codelco.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Codelco</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Diseño Gráfico</div>
+               
+		      </div>
+
+            <div class="link-box group">
+            	<a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            	<a href="#" class="popup-modal-dismiss">Cerrar</a>         
+            </div>
+            
+	      </div><!-- modal-06 end -->
+
+	      <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="assets/img/portfolio/corma.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Mailing Corma</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Diseño Web</div>
+               
+		      </div>
+
+            <div class="link-box group">
+            	<a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            	<a href="#" class="popup-modal-dismiss">Cerrar</a>         
+            </div>
+
+	      </div><!-- modal-07 end -->
+
+	      <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="assets/img/portfolio/integra/integra.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Integra - Guía para padres</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Editorial</div>
+               
+		      </div>
+
+            <div class="link-box group">
+            	<a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            	<a href="#" class="popup-modal-dismiss">Cerrar</a>         
+            </div>
+
+	      </div><!-- modal-08 end -->
+
+      </div>  <!-- end row -->
+
+   </section> <!-- end portfolio -->
+<!-- Contact
+––––––––––––––––––––––––––––––––––––––––––––––––––-->  
+     <main class="contact-contain">
+         <div class="row">
+            <!-- contat-from-wrapper -->
+            <div class="contat-from-wrapper">
+              <h2>Contacto</h2>
+               <div id="message"></div>
+              <form method="post" action="php/contactfrom.php" name="cform" id="cform">
+                  <div class="row">
+                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                        <input  name="name" id="name" type="text" placeholder="Nombre">
+                     </div>
+                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                        <input  name="email" id="email" type="email"  placeholder="Email">
+                     </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <textarea name="comments" id="comments" cols="" rows="" placeholder="Mensaje"></textarea>
+                  <div class="clearfix"></div>
+                  <input na0me="" type="submit" value="Enviar Mensaje">
+                  <div id="simple-msg"></div>
+               </form>
+            </div>
+            </div>
+        </main>
+<!-- Footer
+––––––––––––––––––––––––––––––––––––––––––––––––––-->      
+      <footer class="text-center">
+         <h3>Katherine Moraga</h3>
+         <div id="typed-footer"></div>
+         <span id="typed2"></span>
+         <h6>&copy; Copyright 2017 <br>Sitio web Desarrollado por Katherine Moraga</h6>
+      </footer>
+<!-- js -->
+      <script src="assets/js/jquery-1.12.1.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/typed.js"></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
+      <script src="assets/js/tiltfx.js"></script>
+      <script src="assets/js/isotope.js"></script>
+      <script src="assets/js/wow.min.js"></script>
+      <script src="assets/js/jquery.contact.js"></script>
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <script src="assets/js/index.js"></script>
+      <script> new WOW().init();</script>
+   </body>
 </html>
