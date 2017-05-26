@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="Portafolio de trabajos de Katherine Moraga, Diseñadora en Comunicación Visual."/>
+      <title>Katherine Moraga - Portafolio</title>
+      <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Maven+Pro:500,700|PT+Sans:400,700|Raleway:100,400,500i|Lato:300,900,700|Raleway:400,800,900|Source+Sans+Pro:200,300" rel="stylesheet">
+      <!-- CSS -->
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/vendor.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   </head>
+   <body>
+<!-- Preloader
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <div id="loader-wrapper">
+         <div id="loader"></div>
+         <div class="loader-section section-left"></div>
+         <div class="loader-section section-right"></div>
+      </div>
+  <!-- Navigation
+––––––––––––––––––––––––––––––––––––––––––––––––––-->    
+<div class="overlay-navigation">
+  <nav role="navigation">
+    <ul>
+      <li><a class="btn-about" data-content="Un poco de mi">Sobre mi</a></li>
+      <li><a class="btn-works" data-content="Mis trabajos">Portafolio</a></li>
+      <li><a class="btn-contact" data-content="Contáctame">Contacto</a></li>
+    </ul>
+  </nav>
+</div>
+
+<section class="home">
+  <div class="open-overlay">
+    <span class="bar-top"></span>
+    <span class="bar-middle"></span>
+    <span class="bar-bottom"></span>
+  </div>
+</section>
+<!-- menu block lateral
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <section class="menu-lateral">
+         <div class="logo-block">
+            <a href="index.html"><img alt="logo-km" class="img-responsive" src="assets/img/logokm-wh.png"></a>
+         </div>
+         <div class="social-block">
+            <ul>
+               <li><a target="_blank" href="https://www.linkedin.com/in/kvmoraga/"><span class="fa fa-linkedin-square"></span></a></li>
+               <li><a target="_blank" href="https://www.behance.net/kmoraga"><span class="fa fa-behance" aria-hidden="true"></span></a></li>
+               <li><a target="_blank" href="https://github.com/kvmoraga"><span class="fa fa-github"></span></a></li>
+            </ul>
+         </div>
+      </section>
+
+<!-- Header
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <header class="header_secc hero__imgwrap">
+         <img class="hero__img tilt-effect" data-tilt-options='{ "opacity" : 0.6, "movement": { "perspective" : 1500, "translateX" : 5, "translateY" : 5, "translateZ" : 2, "rotateX" : 2, "rotateY" : 2 } }' src="assets/img/header.jpg" alt="Hero image"/>
+
+      <!-- Typed.js -->
+         <div id="typed-strings">
+            <p><span class="name">Katherine Moraga</span><br><span class="title">Diseñadora Gráfica</span></p>
+         </div>
+         <span id="typed"></span>
+         <button class="btn-works btn-portafolio">Portafolio</button>
+         <div class="btn-about mouse">
+            <div class="scroll"></div>
+         </div>
+      </header>
+<!-- about intro
+––––––––––––––––––––––––––––––––––––––––––––––––––-->      
+   <div id="about" class=" about__section">
+      <div class="about__poster">
+         <div class="poster wow fadeIn" data-wow-delay="0.5s">
+          
+           <div class="poster__1">
+               <img class="poster__img" src="assets/img/desk.jpg" alt="Poster 1"/>
+               <p class="poster__vertical">desarrollo web</p>
+            </div>
+            
+            <figcaption class="poster__2">
+               <div class="poster__box"></div>
+               <h2 class="poster__title">diseño<br/>gráfico</h2>
+            </figcaption>
+            
+         </div>
+      </div>
+      <div class="about__text">
+        <p class="wow fadeIn" data-wow-delay="0.9s"><em>Diseñadora en Comunicación Visual</em>, Licenciada en Artes, Ciencias y Tecnologías del Diseño en Comunicación Visual. Experiencia en diseño dentro del área educativa. Desarrollo de campañas, material educativo y <em>diseño editorial</em>. Conocimientos en <em>desarrollo web</em>, especialmente en lenguajes de programación front-end (HTML5, CSS3 y jQuery). Gran capacidad de aprendizaje, planificación y organización dentro de equipos de trabajos.</p>
+      </div>
+   </div>
+   <!-- Portafolio
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+   <section id="portfolio">
+      <div class="wow fadeIn logo-p" data-wow-delay="0.5s">
+         <img src="assets/img/logokm.png" alt="logo">
+      </div>
+   <!-- Filtro Portafolio
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <div class="wow fadeIn filtrar" data-wow-delay="0.8s">
+         <a href="#" data-filter="*" class="actual">Todo</a> 
+         <a href="#" data-filter=".editorial">Editorial</a>
+         <a href="#" data-filter=".branding">Branding</a>
+         <a href="#" data-filter=".ilustracion">Ilustración</a>
+         <a href="#" data-filter=".educacion">Educación</a>
+      </div>
+<!-- Masonry Contenedor portafolio
+––––––––––––––––––––––––––––––––––––––––––––––––––-->
+      <div class="portfolioContenedor bgrid-fourth s-bgrid-third tab-bgrid-half grid">
+         <div class="grid-sizer"></div>
+   <!-- galeria -->
+         <div class="wow branding fadeIn grid-item folio-item" data-wow-delay="0.3s">
+            <div class="item-wrap">
+               <a href="#modal-01">
+                  <img src="assets/img/portfolio/kavara/thumb-kavara01.jpg" alt="Kavara">
+                  <div class="overlay"></div>                     
+                  <div class="portfolio-item-meta">
+                     <h5>Café Kavara</h5>
+                     <p>Branding</p>
+                  </div> 
+                  <div class="link-icon"><i class="fa fa-plus"></i></div>
+               </a>
+            </div>
+         </div> 
+      <!-- -->
+         <div class="wow editorial fadeIn grid-item folio-item" data-wow-delay="0.6s">
+            <div class="item-wrap">
+               <a href="#modal-02">
+                  <img src="assets/img/portfolio/upc/upc.jpg" alt="UPC">
+                  <div class="overlay"></div>                       
+                  <div class="portfolio-item-meta">
+                     <h5>United Plastic Corporation S.A.</h5>
+                     <p>Editorial</p>
+                  </div> 
+                  <div class="link-icon"><i class="fa fa-plus"></i></div>
+               </a>
+            </div>
+         </div> 
+      <!-- -->
+         <div class="wow editorial fadeIn grid-item folio-item" data-wow-delay="0.3s">
+            <div class="item-wrap">
+               <a href="#modal-03">
+                  <img src="assets/img/portfolio/cge/cge02.png" alt="CGE">
+                  <div class="overlay"></div>                       
+                  <div class="portfolio-item-meta">
+                     <h5>Campaña CGE</h5>
+                     <p>Editorial</p>
+                  </div> 
+                  <div class="link-icon"><i class="fa fa-plus"></i></div>
+               </a>
+            </div>
+         </div> 
+      <!-- -->
+         <div class="wow editorial ilustracion educacion fadeIn grid-item folio-item" data-wow-delay="0.3s">
+            <div class="item-wrap">
+               <a href="#modal-04">
+                  <img src="assets/img/portfolio/adelmo/adelmo01.jpg" alt="Adelmo">
+                  <div class="overlay"></div>                       
+                  <div class="portfolio-item-meta">
+                     <h5>Juego Familiar</h5>
+                     <p>Educación</p>
+                  </div> 
+                  <div class="link-icon"><i class="fa fa-plus"></i></div>
+               </a>
+            </div>
+         </div> 
+      <!-- -->
+         <div class="wow educacion fadeIn grid-item folio-item" data-wow-delay="0.6s">
+            <div class="item-wrap">
+               <a href="#modal-05">
+                  <img src="assets/img/portfolio/corma.jpg" alt="CGE">
+                  <div class="overlay"></div>                       
+                  <div class="portfolio-item-meta">
+                     <h5>Mailing Educárbol de Corma</h5>
+                     <p>Diseño web</p>
+                  </div> 
+                  <div class="link-icon"><i class="fa fa-plus"></i></div>
+               </a>
+            </div>
+         </div> 
+      <!-- -->
+         <div class="wow editorial educacion fadeIn grid-item folio-item" data-wow-delay="0.3s">
+            <div class="item-wrap">
+               <a href="#modal-06">
+                  <img src="assets/img/portfolio/integra/integra.jpg" alt="CGE">
+                  <div class="overlay"></div>                       
+                  <div class="portfolio-item-meta">
+                     <h5>Integra</h5>
+                     <p>Editorial</p>
+                  </div> 
+                  <div class="link-icon"><i class="fa fa-plus"></i></div>
+               </a>
+            </div>
+         </div> 
+      <!-- -->
+         <div class="wow editorial fadeIn grid-item folio-item" data-wow-delay="0.6s">
+            <div class="item-wrap">
+               <a href="#modal-07">
+                  <img src="assets/img/portfolio/aramark/thumb-recetario01.jpg" alt="CGE">
+                  <div class="overlay"></div>                       
+                  <div class="portfolio-item-meta">
+                     <h5>Recetario Aramark</h5>
+                     <p>Editorial</p>
+                  </div> 
+                  <div class="link-icon"><i class="fa fa-plus"></i></div>
+               </a>
+            </div>
+         </div> 
+      <!-- -->
+         <div class="wow educacion fadeIn grid-item folio-item" data-wow-delay="0.3s">
+            <div class="item-wrap">
+               <a href="#modal-08">
+                  <img src="assets/img/portfolio/thumb-codelco.jpg" alt="CGE">
+                  <div class="overlay"></div>                       
+                  <div class="portfolio-item-meta">
+                     <h5>Feria de las Ciencias - Codelco</h5>
+                     <p>Educación</p>
+                  </div> 
+                  <div class="link-icon"><i class="fa fa-plus"></i></div>
+               </a>
+            </div>
+         </div> 
+      </div>
+      
+<!-- modal -->
+      <div id="modal-01" class="popup-modal mfp-hide">
+         <div class="media">
+            <img src="assets/img/portfolio/kavara/kavara01.jpg" alt="kavara"/>
+         </div>
+         <div class="description-box">
+            <h4>Café Kavara</h4>
+            <p>Imagen corporativa para cafetería, donde el concepto principal recae en la antigua leyenda del origen del café, que hace referencia a las cabras y el cafeto. El principal enfoque de la cafetería es la comercialización de cafés con denominación de origen en países reconocidos por su producción de café.</p>
+            <span class="categories">Branding</span>
+         </div>
+         <div class="link-box group">
+            <a href="https://www.behance.net/gallery/29053399/Caf-Kavara" target="_blank" data-toggle="tooltip" title="Ver proyecto en Behance">Detalles</a>
+            <a class="popup-modal-dismiss">Cerrar</a>      
+         </div>
+      </div>
+   <!-- -->
+      <div id="modal-02" class="popup-modal mfp-hide">
+         <div class="media">
+            <img src="assets/img/portfolio/upc/01.jpg" alt="upc"/>
+         </div>
+         <div class="description-box">
+            <h4>United Plastic Corporation S.A. - Editorial</h4>
+            <p>Elaboración de material editorial para United Plastic Corporation S.A. Elaboración de catálogos de productos, díptico, cuaderno corporativo, entre otros.</p>
+            <span class="categories">Branding</span>
+         </div>
+         <div class="link-box group">
+            <a href="https://www.behance.net/gallery/52258919/UPC-Proyecto-Editorial" target="_blank" data-toggle="tooltip" title="Ver proyecto en Behance">Detalles</a>
+            <a href="#" class="popup-modal-dismiss">Cerrar</a>      
+         </div>
+      </div>
+   <!-- -->
+      <div id="modal-03" class="popup-modal mfp-hide">
+         <div class="media">
+            <img src="assets/img/portfolio/cge/cge04.jpg" alt="cge"/>
+         </div>
+         <div class="description-box">
+            <h4>Campaña CGE</h4>
+            <p>Propuesta para la Compañía General de Electricidad S.A, la cual requería un servicio de apoyo dentro del área de Responsabilidad Social, en el desarrollo de una campaña con enfoque educativo que fomentara la compresión de la comunidad al funcionamiento del sistema eléctrico.</p>
+            <span class="categories">Editorial</span>
+         </div>
+         <div class="link-box group">
+            <a href="https://www.behance.net/gallery/34076774/Campana-CGE" target="_blank" data-toggle="tooltip" title="Ver proyecto en Behance">Detalles</a>
+            <a href="#" class="popup-modal-dismiss">Cerrar</a>      
+         </div>
+      </div>
+   <!-- -->
+      <div id="modal-04" class="popup-modal mfp-hide">
+         <div class="media">
+            <img src="assets/img/portfolio/adelmo/adelmo04.jpg" alt="adelmo"/>
+         </div>
+         <div class="description-box">
+            <h4>Juego Familiar</h4>
+            <p>Juego de tarjetas que busca valorar y recuperar el juego en familia como una actividad significativa en el desarrollo integral de los niños.</p>
+            <span class="categories">Ilustración</span>
+         </div>
+         <div class="link-box group">
+            <a href="https://www.behance.net/gallery/28617315/Juego-de-tarjetas-Adelmo-y-la-Magia-de-la-Luna" target="_blank" data-toggle="tooltip" title="Ver proyecto en Behance">Detalles</a>
+            <a href="#" class="popup-modal-dismiss">Cerrar</a>      
+         </div>
+      </div>
+   <!-- -->
+      <div id="modal-05" class="popup-modal mfp-hide">
+         <div class="media">
+            <img src="assets/img/portfolio/corma.jpg" alt="mailing corma"/>
+         </div>
+         <div class="description-box">
+            <h4>Mailing Educárbol</h4>
+            <p>Diseño y desarrollo de mailing para promocionar las nuevas guías educativas de Educárbol.</p>
+            <span class="categories">Diseño Web</span>
+         </div>
+         <div class="link-box group">
+            <a href="https://www.behance.net/gallery/52754047/Corma-Mailing-Educarbol" target="_blank" data-toggle="tooltip" title="Ver proyecto en Behance">Detalles</a>
+            <a href="#" class="popup-modal-dismiss">Cerrar</a>      
+         </div>
+      </div>
+   <!-- -->
+      <div id="modal-06" class="popup-modal mfp-hide">
+         <div class="media">
+            <img src="assets/img/portfolio/integra/integra2.jpg" alt="integra"/>
+         </div>
+         <div class="description-box">
+            <h4>Guía para padres Integra</h4>
+            <p>Diseño y diagramación de una guía para padres, la cual tiene el propósito de orientar el proceso de control de esfínteres en los niños.</p>
+            <span class="categories">Editorial</span>
+         </div>
+         <div class="link-box group">
+            <a href="https://www.behance.net/gallery/52404755/Integra-Paso-a-Paso" target="_blank" data-toggle="tooltip" title="Ver proyecto en Behance">Detalles</a>
+            <a href="#" class="popup-modal-dismiss">Cerrar</a>      
+         </div>
+      </div>
+        <!-- -->
+      <div id="modal-07" class="popup-modal mfp-hide">
+         <div class="media">
+            <img src="assets/img/portfolio/aramark/recetario02.jpg" alt="aramark"/>
+         </div>
+         <div class="description-box">
+            <h4>Recetarios Aramark</h4>
+            <p>Recetarios corporativos para la planificación y producción en las operaciones de la empresa. Se agruparon las preparaciones culinarias en dos recetarios formados por más de 300 recetas.</p>
+            <span class="categories">Editorial</span>
+         </div>
+         <div class="link-box group">
+            <a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            <a href="#" class="popup-modal-dismiss">Cerrar</a>      
+         </div>
+      </div>
+   <!-- -->
+      <div id="modal-08" class="popup-modal mfp-hide">
+         <div class="media">
+            <img src="assets/img/portfolio/codelco.jpg" alt="codelco"/>
+         </div>
+         <div class="description-box">
+            <h4>CodelcoEduca</h4>
+            <p>Material gráfico para la Fiesta de la Ciencia y la Tecnología 2015, donde se exponen temáticas referente a los usos modernos del Cobre.</p>
+            <span class="categories">Diseño Gráfico</span>
+         </div>
+         <div class="link-box group">
+            <a data-toggle="tooltip" title="Próximamente">Detalles</a>
+            <a href="#" class="popup-modal-dismiss">Cerrar</a>      
+         </div>
+      </div>
+      </section>
+      
+<!-- Contact
+––––––––––––––––––––––––––––––––––––––––––––––––––-->  
+  <main id="contacto" class="contact-contain">
+    <div class="contact-intro">
+      <h2>contacto</h2>
+      <p>¿En qué puedo ayudarte?</p>      
+    </div>
+    <div class="contain-form row">
+      <div class="contat-from-wrapper">
+         <div id="message"></div>
+         <form method="post" action="assets/php/contactfrom.php" name="cform" id="cform">
+         <div class="container">
+           <div class="row col-sm-6">
+               <input  name="name" id="name" type="text" placeholder="Nombre">
+               <input  name="subject" id="subject" type="text" placeholder="Asunto">
+               <input  name="email" id="email" type="email"  placeholder="Email">
+            </div>
+            <textarea class="col-sm-6" name="comments" id="comments" cols="" rows="" placeholder="Mensaje"></textarea>
+        </div>
+        <div class="btn-msg container">
+            <input class="col-sm-12" name="" type="submit" value="Enviar Mensaje">
+            <div class="col-sm-12" id="simple-msg"></div>
+       </div>
+         </form>
+      </div>
+   </div>
+     </main>
+<!-- Footer
+––––––––––––––––––––––––––––––––––––––––––––––––––-->      
+      <footer class="text-center">
+         <div>
+            <h3>Katherine Moraga</h3>
+            <div id="typed-footer"></div>
+            <span id="typed2"></span>
+         </div>
+         <div class="footer-social">
+            <ul>
+               <li><a target="_blank" href="https://www.linkedin.com/in/kvmoraga/"><span class="fa fa-linkedin-square"></span></a></li>
+               <li><a target="_blank" href="https://www.behance.net/kmoraga"><span class="fa fa-behance" aria-hidden="true"></span></a></li>
+               <li><a target="_blank" href="https://github.com/kvmoraga"><span class="fa fa-github"></span></a></li>
+            </ul>
+         </div>
+         <h6>&copy; Copyright 2017 <br>Sitio web Desarrollado por Katherine Moraga</h6>
+      </footer>
+<!-- js -->
+      <script src="assets/js/jquery-1.12.1.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/typed.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+      <script src="assets/js/tiltfx.js"></script>
+      <script src="assets/js/isotope.js"></script>
+      <script src="assets/js/wow.min.js"></script>
+      <script src="assets/js/masonry.js"></script>
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <script src="assets/js/index.js"></script>
+      <script> new WOW().init();</script>
+   </body>
+</html>
